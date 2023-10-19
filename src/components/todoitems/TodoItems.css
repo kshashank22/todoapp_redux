@@ -1,0 +1,30 @@
+.todoItemsContainer {
+  list-style: none;
+  width: 50vw;
+  margin: 5px 0px;
+}
+.todoItems {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  margin: 0px 10px;
+  background-color: transparent;
+  border: none;
+}
+.editInput {
+  width: 40vw;
+  outline: none;
+  border: solid 1px black;
+}
+.title {
+  font-family: "Arial";
+  font-size: 15px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+.completed {
+  background-color: lightgray;
+  padding: 3px;
+  border-radius: 5px;
+}
